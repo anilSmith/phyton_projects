@@ -1,0 +1,18 @@
+/* Center align all elements */
+body {
+    text-align: center;
+}
+
+/* Style for the first heading */
+h1 {
+    color: aqua;
+}
+
+/* Style for class 'a' */
+.a {
+    font-style: italic;
+    font-weight: bold;
+    color: blue; /* You can adjust the color as needed */
+}
+
+

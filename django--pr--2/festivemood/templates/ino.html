@@ -1,0 +1,33 @@
+{% extends "base.html %"}
+{ % block content %}
+
+ <form method="post">
+    {% crsf_token %}
+
+
+    <label for="name"> name: </label>
+    <input type="text" name="name" id="name" required><br><br>
+
+    <label for="place"> place: </label>label>
+    <input type="text" name="name" id="place" required><br><br>
+
+    <label for="age"> Age: </label>label>
+    <input type="number" name="age" id="age" required><br><br>
+
+    <label for="email"> Email: </label>label>
+    <input type="text" name="email" id="email" required><br><br>
+    <button type="submit">submit</button>
+ </form>
+ <br><br><br>
+
+ {% if name %}
+
+  <div  class="alret alret-info" >
+  <h1>Hello Thops,I'am {{name}}!</h1> <br>
+  <h1>I'm from {{place}}</h1> <br><br>
+  <h1> I'm {{age}} years old!</h1> <br> <br>
+  <h1>you can reaach me  at {{email}}</h1>
+  </div>
+
+  {% endif %}
+{% endblock content %}

@@ -1,0 +1,25 @@
+# def fun():
+
+#     try:
+#         print(34)
+#         print(30)
+#         return (30)
+#     except exception as e:
+#             print(e)
+#     # finally:
+#     #         print(40)
+#     #         print(50)
+
+# x=fun()
+# # print(x)
+
+
+
+try:
+    a=int(input())
+    b=int(input())
+    print(a/b)
+except Exception :
+    print("zero division error")
+
+

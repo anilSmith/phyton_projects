@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% include "navbar.html" %}
+    {% block content %}
+    {% endblock content %}
+    {% load static %}
+    <link rel = "stylesheet" href="{% static 'style.css' %}"/>
+    
+    
+    <style>
+    </style>
+</head>
+<body>
+    
+
+    <h1 style="text-align:center">welcome to my world</h1>
+    <div style= "text-align:center">
+        <h1 style="color: aqua;">{{ fath }} : Johny Jhony</h1>
+        <h1 class="a">{{ child }} : Yes papa</h1>
+        <h1>{{ fath }} : Eating sugar</h1>
+        <h1>{{ child }} : No papa</h1>
+        <h1>{{ fath }} : Telling lies</h1>
+        <h1>{{ child }} : No papa</h1>
+        <h1>{{ fath }} : open your mouth</h1>
+        <h1>{{ child }} : ha ha ha </h1>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus.</h1>
+
+    
+    </div>
+</body>
+</html>

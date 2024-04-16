@@ -1,0 +1,51 @@
+h1{
+   color: cyan;
+}
+h2{
+    color: chartreuse;
+}
+
+/* main difference brtweeen elements and css sheets is to colour a particular paragraph we use css style sheets..
+we use selector when we have 10 paragraphs we have to colour the same colour for 10 paragraphs. in that case we use selectors in external css */
+
+/* universal selector-select all font in the webpage */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* elelment selector-particular para,header */
+p,h1{
+    color: red;
+}
+
+/* class selector */
+
+.card{
+    color:aqua
+}
+
+.stylesheet2{
+    color: indianred;
+}
+
+.anil{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.class{
+    background-color: rgb(148, 200, 141);
+}
+/* uninvesal selector select all in the table  */
+*{
+    background-color: yellow;
+}
+/* create class with name anil */
+.anil{
+    color: blue;
+    font-size: 6pc;
+}
+/* id given in the css id=puli */
+#puli{
+    color:brown
+}

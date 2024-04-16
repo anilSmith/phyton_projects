@@ -1,0 +1,16 @@
+/*css selectors
+1. universal selector(*)
+2. element selector
+3.class selector
+4.id selector
+5.attribute selector*/
+
+/*
+*univesal selector
+*{ font family: arial,margin =0,padding=0;
+}
+
+/* element selector
+p{
+    colour
+}
